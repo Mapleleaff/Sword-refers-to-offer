@@ -9,6 +9,7 @@ def duplicate(x,dup=[]):
             else:
                 x[i], x[index] = x[index], x[i]
     return False, dup
+
 test = [2, 3, 1, 0, 2, 5, 3]
 s, dup = duplicate(test,[])
 print("{},{}".format(s,dup))
