@@ -1,5 +1,3 @@
-
-
 def duplicate(x,dup=[]):
     m = len(x)
     for i in range(m):
