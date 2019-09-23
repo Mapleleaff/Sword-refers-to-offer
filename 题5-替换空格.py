@@ -4,6 +4,23 @@
 例如，当字符串为 "We Are Happy". 则经过替换之后的字符串为 "We%20Are%20Happy"
 """
 
+# 普通方法
+class Solution:
+    def replaceSpace(self, s):  
+        if s == None:
+            return None
+        if len(s) == 0:
+            return ''
+        result = ''
+        for item in s:
+            if item.isspace():
+                result = result+'%20'
+            else:
+                result = result+item
+        return result
+
+    
+# 先遍历，再逆向扫描替换方法
 def respace(s):
     count = 0
     for i in s:
