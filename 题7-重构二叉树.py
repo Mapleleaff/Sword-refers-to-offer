@@ -1,9 +1,14 @@
+"""
+题7-重构二叉树
+输入某二叉树的前序遍历和中序遍历的结果，重建该二叉树。
+假设输入的前序遍历和中序遍历的结果中都不含重复的数字。
+"""
+
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
-
 
 def buildtree(pre, tin):
     if pre == []:
