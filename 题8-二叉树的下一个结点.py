@@ -11,7 +11,6 @@ class TreeNode:
         self.right = None
         self.next  = None
 
-
 def getNode(pNode):
     if not pNode:
         return None
