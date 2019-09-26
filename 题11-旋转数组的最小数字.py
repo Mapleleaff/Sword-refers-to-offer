@@ -10,6 +10,9 @@ def minnuminrotatearray(array):
     if len(array) == 0:
         return 0
     first, last = 0, len(array)-1
+    if array[first]< array[last]:
+        return array[first]
+    
     while array[first] >= array[last]:
         if last-first == 1:
             return array[last]
