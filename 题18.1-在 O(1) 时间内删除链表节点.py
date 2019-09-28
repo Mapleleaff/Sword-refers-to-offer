@@ -1,3 +1,8 @@
+"""
+题18.1-在 O(1) 时间内删除链表节点
+给定单向链表的头指针和一个节点指针，定义一个函数在 O(1) 时间内删除该节点。
+"""
+
 class ListNode(object):
     def __init__(self, x):
         self.val = x
