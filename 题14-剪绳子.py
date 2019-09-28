@@ -38,8 +38,8 @@ class Solution(object):
         if num == 3:
             return 2
 
-        n3 = i//3
-        if i%3 == 1:
+        n3 = num // 3
+        if num % 3 == 1:
             n3 -=1
         n2 = (num - 3*n3)//2
 
