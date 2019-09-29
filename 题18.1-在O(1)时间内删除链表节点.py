@@ -31,7 +31,7 @@ class Solution:
             pToBeDeleted.__del__()
             pListHead.__del__()
 
-        # 要删除的节点是删除尾节点
+        # 要删除的节点是尾节点
         else:
             pNode = pListHead
             while pNode.next != pToBeDeleted:
