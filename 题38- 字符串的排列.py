@@ -18,6 +18,7 @@ class Solution:
                 pstr.append(j)
         return pstr
 
+
 arr = 'abc'
 S = Solution()
 print(S.Permutation(arr))
